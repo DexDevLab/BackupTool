@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BackupTool.jnlp">
+  <information>
+    <title>BackupTool</title>
+    <vendor>t04693</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BackupTool.jar" size="90047" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="lib\commons-lang3-3.9.jar" size="503880" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="backuptool.BackupTool"  name="BackupTool" />
+  <update check="always"/>
+</jnlp>
